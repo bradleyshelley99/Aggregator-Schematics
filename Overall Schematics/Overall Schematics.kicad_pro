@@ -48,7 +48,13 @@
           "min_clearance": 0.508
         }
       },
-      "diff_pair_dimensions": [],
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        }
+      ],
       "drc_exclusions": [],
       "meta": {
         "filename": "board_design_settings.json",
@@ -113,8 +119,15 @@
         "min_via_diameter": 0.39999999999999997,
         "use_height_for_length_calcs": true
       },
-      "track_widths": [],
-      "via_dimensions": [],
+      "track_widths": [
+        0.0
+      ],
+      "via_dimensions": [
+        {
+          "diameter": 0.0,
+          "drill": 0.0
+        }
+      ],
       "zones_allow_external_fillets": false,
       "zones_use_no_outline": true
     },
@@ -402,6 +415,7 @@
           "BOUT2_2",
           "BOUT2_3",
           "Battery1_Positive24V",
+          "Battery_Neg",
           "OUTA1_LIN",
           "OUTA2_LIN",
           "OUTA3_LIN",
@@ -415,8 +429,7 @@
           "OUTB_1",
           "OUTB_2",
           "OUTB_3",
-          "OUTB_4",
-          "PWR_GND"
+          "OUTB_4"
         ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
@@ -493,7 +506,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "Overall Schematics.net",
-      "specctra_dsn": "",
+      "specctra_dsn": "C:/Users/Brad/Downloads/Overall Schematics.dsn",
       "step": "",
       "vrml": ""
     },
